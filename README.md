@@ -23,6 +23,10 @@ docker push repository_name/custom_image_name:tag
 CDSW engines are add using the Site Administration area
 ![image](images/site-admin.png)
 
+1. Scroll down to the Engine Images section
+2. Enter the Docker repository name, image name, and tag
+![image](images/add-engine.png)
+
 ### Add the Custom ML Runtime 
 Once the Docker image has been built and pushed, it can be added to the Runtime Catalog.
 ![image](images/cdsw-ml-runtimes.png)
