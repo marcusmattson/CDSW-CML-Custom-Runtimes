@@ -26,6 +26,9 @@ CDSW engines are add using the Site Administration area
 1. Scroll down to the Engine Images section
 2. Enter the Docker repository name, image name, and tag
 ![image](images/add-engine.png)
+3. Navigate to a Project > Project Settings
+4. Select the Runtime/Engine tab and select the default engine
+![image](images/add-eng-to-project.png)
 
 ### Add the Custom ML Runtime 
 Once the Docker image has been built and pushed, it can be added to the Runtime Catalog.
