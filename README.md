@@ -2,11 +2,11 @@
 These Dockerfiles are examples of custom engines and runtimes that can be created for use with Cloudera CDSW and CML.
 
 ## High-Level Steps
-Create/modify a Dockerfile
-Build Docker image
-Push Docker Image to registry
-Add Docker image to CDSW/CML to the ML Runtime Catalog
-Test ML Runtime
+1. Create/modify a Dockerfile
+2. Build Docker image
+3. Push Docker Image to registry
+4. Add Docker image to CDSW/CML to the ML Runtime Catalog
+5. Test ML Runtime or Legacy Engine
 
 Build the image
 ```bash
@@ -18,7 +18,10 @@ Once the image is built, push it to a personal or organization's repository. The
 ```bash
 docker push repository_name/custom_image_name:tag
 ```
-## Add the Custom ML Runtime 
+
+### Add the Csutom Legacy Engine
+
+### Add the Custom ML Runtime 
 Once the Docker image has been built and pushed, it can be added to the Runtime Catalog.
 ![image](images/cdsw-ml-runtimes.png)
 
