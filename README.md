@@ -19,7 +19,9 @@ Once the image is built, push it to a personal or organization's repository. The
 docker push repository_name/custom_image_name:tag
 ```
 
-### Add the Csutom Legacy Engine
+### Add the Custom Legacy Engine
+CDSW engines are add using the Site Administration area
+![image](images/site-admin.png)
 
 ### Add the Custom ML Runtime 
 Once the Docker image has been built and pushed, it can be added to the Runtime Catalog.
