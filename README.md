@@ -1,2 +1,2 @@
-# CDSW-CML-Custom-Runtimes
-Examples of custom engines and runtimes for Cloudera CDSW and CML
+# CDSW/CML Custom Engines and Runtimes
+These Dockerfiles are examples of custom engines and runtimes that can be created for use with Cloudera CDSW and CML.
